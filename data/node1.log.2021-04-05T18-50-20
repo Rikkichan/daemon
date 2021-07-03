@@ -1,0 +1,23 @@
+{"t":{"$date":"2021-04-05T14:50:04.417-04:00"},"s":"I",  "c":"CONTROL",  "id":23285,   "ctx":"main","msg":"Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'"}
+{"t":{"$date":"2021-04-05T14:50:04.421-04:00"},"s":"W",  "c":"ASIO",     "id":22601,   "ctx":"main","msg":"No TransportLayer configured during NetworkInterface startup"}
+{"t":{"$date":"2021-04-05T14:50:04.422-04:00"},"s":"I",  "c":"NETWORK",  "id":4648601, "ctx":"main","msg":"Implicit TCP FastOpen unavailable. If TCP FastOpen is required, set tcpFastOpenServer, tcpFastOpenClient, and tcpFastOpenQueueSize."}
+{"t":{"$date":"2021-04-05T14:50:04.422-04:00"},"s":"W",  "c":"ASIO",     "id":22601,   "ctx":"main","msg":"No TransportLayer configured during NetworkInterface startup"}
+{"t":{"$date":"2021-04-05T14:50:04.422-04:00"},"s":"I",  "c":"STORAGE",  "id":4615611, "ctx":"initandlisten","msg":"MongoDB starting","attr":{"pid":19631,"port":27001,"dbPath":"/daemon/data/node1","architecture":"64-bit","host":"hades"}}
+{"t":{"$date":"2021-04-05T14:50:04.422-04:00"},"s":"I",  "c":"CONTROL",  "id":23403,   "ctx":"initandlisten","msg":"Build Info","attr":{"buildInfo":{"version":"4.4.2","gitVersion":"15e73dc5738d2278b688f8929aee605fe4279b0e","openSSLVersion":"OpenSSL 1.0.1e-fips 11 Feb 2013","modules":[],"allocator":"tcmalloc","environment":{"distmod":"rhel70","distarch":"x86_64","target_arch":"x86_64"}}}}
+{"t":{"$date":"2021-04-05T14:50:04.422-04:00"},"s":"I",  "c":"CONTROL",  "id":51765,   "ctx":"initandlisten","msg":"Operating System","attr":{"os":{"name":"CentOS Linux release 7.9.2009 (Core)","version":"Kernel 3.10.0-1160.11.1.el7.x86_64"}}}
+{"t":{"$date":"2021-04-05T14:50:04.422-04:00"},"s":"I",  "c":"CONTROL",  "id":21951,   "ctx":"initandlisten","msg":"Options set by command line","attr":{"options":{"net":{"port":27001},"processManagement":{"fork":true},"replication":{"replSet":"My_Replica_Set"},"storage":{"dbPath":"node1"},"systemLog":{"destination":"file","path":"node1.log"}}}}
+{"t":{"$date":"2021-04-05T14:50:04.424-04:00"},"s":"E",  "c":"STORAGE",  "id":20568,   "ctx":"initandlisten","msg":"Error setting up listener","attr":{"error":{"code":9001,"codeName":"SocketException","errmsg":"Address already in use"}}}
+{"t":{"$date":"2021-04-05T14:50:04.425-04:00"},"s":"I",  "c":"REPL",     "id":4784900, "ctx":"initandlisten","msg":"Stepping down the ReplicationCoordinator for shutdown","attr":{"waitTimeMillis":10000}}
+{"t":{"$date":"2021-04-05T14:50:04.425-04:00"},"s":"I",  "c":"COMMAND",  "id":4784901, "ctx":"initandlisten","msg":"Shutting down the MirrorMaestro"}
+{"t":{"$date":"2021-04-05T14:50:04.425-04:00"},"s":"I",  "c":"SHARDING", "id":4784902, "ctx":"initandlisten","msg":"Shutting down the WaitForMajorityService"}
+{"t":{"$date":"2021-04-05T14:50:04.425-04:00"},"s":"I",  "c":"NETWORK",  "id":4784905, "ctx":"initandlisten","msg":"Shutting down the global connection pool"}
+{"t":{"$date":"2021-04-05T14:50:04.425-04:00"},"s":"I",  "c":"REPL",     "id":4784907, "ctx":"initandlisten","msg":"Shutting down the replica set node executor"}
+{"t":{"$date":"2021-04-05T14:50:04.425-04:00"},"s":"I",  "c":"NETWORK",  "id":4784918, "ctx":"initandlisten","msg":"Shutting down the ReplicaSetMonitor"}
+{"t":{"$date":"2021-04-05T14:50:04.425-04:00"},"s":"I",  "c":"SHARDING", "id":4784921, "ctx":"initandlisten","msg":"Shutting down the MigrationUtilExecutor"}
+{"t":{"$date":"2021-04-05T14:50:04.425-04:00"},"s":"I",  "c":"CONTROL",  "id":4784925, "ctx":"initandlisten","msg":"Shutting down free monitoring"}
+{"t":{"$date":"2021-04-05T14:50:04.425-04:00"},"s":"I",  "c":"FTDC",     "id":4784926, "ctx":"initandlisten","msg":"Shutting down full-time data capture"}
+{"t":{"$date":"2021-04-05T14:50:04.425-04:00"},"s":"I",  "c":"STORAGE",  "id":4784927, "ctx":"initandlisten","msg":"Shutting down the HealthLog"}
+{"t":{"$date":"2021-04-05T14:50:04.425-04:00"},"s":"I",  "c":"STORAGE",  "id":4784929, "ctx":"initandlisten","msg":"Acquiring the global lock for shutdown"}
+{"t":{"$date":"2021-04-05T14:50:04.425-04:00"},"s":"I",  "c":"-",        "id":4784931, "ctx":"initandlisten","msg":"Dropping the scope cache for shutdown"}
+{"t":{"$date":"2021-04-05T14:50:04.425-04:00"},"s":"I",  "c":"CONTROL",  "id":20565,   "ctx":"initandlisten","msg":"Now exiting"}
+{"t":{"$date":"2021-04-05T14:50:04.425-04:00"},"s":"I",  "c":"CONTROL",  "id":23138,   "ctx":"initandlisten","msg":"Shutting down","attr":{"exitCode":48}}
